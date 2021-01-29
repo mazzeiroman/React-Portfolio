@@ -3,21 +3,30 @@ import "./style.css";
 import Container from "../components/Container";
 import Row from "../components/Row";
 import Col from "../components/Col";
+import SocialMedia from "../components/SocialMedia";
+
 
 function Home() {
   return (
     <div>
-      <Container style={{ marginTop: 30 }}>
-        <Row>
-          <Col size="md-3">
-          <img src="../public/img/romanmazzei.jpg" className="rounded-circle mx-auto d-block ppic" alt="profile-picture"/>
+      <SocialMedia/>
+      <Container>
+        <br></br>
+        <div className="textarea"> 
+        <Row >
+          <Col size="md-3" >
+          <img src="/img/romanmazzei.jpg" alt="profile picture" className="ppic"/>
           </Col>
           <Col size="md-9">
             <h1>  Hi, I'm Roman Mazzei  </h1>
           </Col>
         </Row>
-        <Row>
-          <Col size="md-12">
+        </div>
+        </Container>
+        <br></br>
+        <Container >
+        <Row className="textarea">
+          <Col size="md-12" >
           <h2>About me</h2>
             <p>
             Logical and results-driven employer-ready Full Stack Developer dedicated to building 
@@ -30,8 +39,12 @@ function Home() {
              with my technical skills to develop successful projects that meet customer needs.
             </p>
           </Col>
+          <br></br>
         </Row>
-        <Row>
+        </Container>
+        <Container >
+          <div className="textarea">
+        <Row >
           <Col size="md-12">
           <h2> My Skills </h2>
           </Col>
@@ -73,6 +86,7 @@ function Home() {
         </div>
           </Col>
         </Row>
+        </div>
       </Container>
     </div>
   );
