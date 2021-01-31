@@ -51,6 +51,7 @@ function Home() {
         </Row>
         <Row>
           <Col size="md-12">
+            
             <div className="spread">
           <div className="card text-dark border-light mb-3">
           <div className="card-header border-primary">Constant learning</div>
