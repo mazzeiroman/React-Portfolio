@@ -17,7 +17,7 @@ function Home() {
         <div className="textarea">
           <Row >
             <Col size="md-3" >
-              <img src="./images/romanmazzei.jpg" alt="profile picture" className="ppic" />
+              <img src="/images/romanmazzei.jpg" alt="profile picture" className="ppic" />
             </Col>
             <Col size="md-9">
               <h1>  Hi, I'm Roman Mazzei  </h1>
@@ -52,8 +52,9 @@ function Home() {
             </Col>
           </Row>
 
-              <CardDeck style={{display: 'flex', flexDirection: 'row'}}>
-                <Card border="primary" style={{ width: '18rem', flex: 1}}>
+              <CardDeck style={{display: 'flex', flexDirection: 'row', justifyContent: 'space-around'}}>
+              {" . "}
+                <Card border="primary" style={{ width: '10rem', flex: 1}}>
                   <Card.Header>Constant learning</Card.Header>
                   <Card.Body>
                     <Card.Text>
@@ -62,7 +63,7 @@ function Home() {
                   </Card.Text>
                   </Card.Body>
                 </Card>
-
+                {" . "}
                 <Card border="primary" style={{ width: '18rem', flex: 1 }}>
                   <Card.Header>Problem Solving</Card.Header>
                   <Card.Body>
@@ -72,7 +73,7 @@ function Home() {
                   </Card.Text>
                   </Card.Body>
                 </Card>
-
+                {" . "}
                 <Card border="primary" style={{ width: '18rem', flex: 1 }}>
                   <Card.Header>Multilingual</Card.Header>
                   <Card.Body>
@@ -82,7 +83,7 @@ function Home() {
                   </Card.Text>
                   </Card.Body>
                 </Card>
-
+                {" . "}
                 <Card border="primary" style={{ width: '18rem', flex: 1 }}>
                   <Card.Header>Analytical thinking</Card.Header>
                   <Card.Body>
@@ -92,45 +93,8 @@ function Home() {
                   </Card.Text>
                   </Card.Body>
                 </Card>
+                {" . "}
               </CardDeck>
-              {/* <Row>
-              <Col size="md-12">
-
-              <div className="spread">
-                <div className="card text-dark border-light mb-3">
-                  <div className="card-header border-primary">Constant learning</div>
-                  <div className="card-body text-dark">
-                    <p className="card-text">Learning is essential to success in your personal life and your work life.
-              And since coding is always changing and evolving it is essential to keep learning new technologies to advance in the field.</p>
-                  </div>
-                </div>
-
-                <div className="card text-dark border-light mb-3">
-                  <div className="card-header border-primary">Problem Solving</div>
-                  <div className="card-body text-dark">
-                    <p className="card-text">Being a confident problem solver is really important to your success.
-          I am always trying to find solutions to problems through genereating alternatives and evaluating them, to detect different paths towards better results.</p>
-                  </div>
-                </div>
-
-                <div className="card text-dark border-light mb-3">
-                  <div className="card-header border-primary">Multilingual</div>
-                  <div className="card-body text-dark">
-                    <p className="card-text">Being multilingual actually changes your brain structure, and this can help you in multiple ways.
-          It improves your memory, helps you process information better, and helps with multitasking skills.</p>
-                  </div>
-                </div>
-
-                <div className="card text-dark border-light mb-3">
-                  <div className="card-header border-primary">Analytical thinking</div>
-                  <div className="card-body text-dark">
-                    <p className="card-text">Working with structural design taught me how to use the step-by-step approach to thinking, and that allows me to break
-        down complex problems into single and manageable components with easier solutions.</p>
-                  </div>
-                </div>
-              </div>
-            </Col>
-          </Row> */}
         </div>
       </Container>
     </div>

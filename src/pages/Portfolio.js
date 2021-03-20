@@ -8,12 +8,19 @@ import CardPortfolio from "../components/CardPortfolio";
 
 let portfolio = [
   {
-      name: "Vinyl Destination",
-      img: "./images/home.jpg",
-      description: "A full-stack application. An Album collection developed using MySQL, Node, Express, Handlebars, sequelize and Passport (Pull out all the stops!). Following the MVC design pattern.",
-      repo: "//github.com/rachelrosenstein/Vinyl-Destination",
-      deployed: "//vinyl-destination.herokuapp.com/"
+      name: "Uguale",
+      img: "./images/uguale.jpg",
+      description: "A basic addition math trainer made for young and old.",
+      repo: "//github.com/clairevita/uguale",
+      deployed: "//uguale.herokuapp.com/"
   },
+  {
+    name: "Vinyl Destination",
+    img: "./images/home.jpg",
+    description: "A full-stack application. An Album collection developed using MySQL, Node, Express, Handlebars, sequelize and Passport (Pull out all the stops!). Following the MVC design pattern.",
+    repo: "//github.com/rachelrosenstein/Vinyl-Destination",
+    deployed: "//vinyl-destination.herokuapp.com/"
+},
   {
       name: "Weather Dashboard",
       img: "./images/weather.jpg",
