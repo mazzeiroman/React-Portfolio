@@ -9,7 +9,7 @@ import CardPortfolio from "../components/CardPortfolio";
 let portfolio = [
   {
       name: "Uguale",
-      img: "./images/uguale.jpg",
+      img: "./images/ugu.jpg",
       description: "A basic addition math trainer made for young and old.",
       repo: "//github.com/clairevita/uguale",
       deployed: "//uguale.herokuapp.com/"
