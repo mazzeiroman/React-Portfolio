@@ -11,7 +11,7 @@ function SocialMedia() {
         <a href="https://www.linkedin.com/in/romanmazzei/" className="linkedin">
           <i className="fab fa-linkedin-in"></i>
         </a>
-        <a href="./images/RomanMazzei.pdf" download="curriculum" className="curriculum">
+        <a href="/images/RomanMazzei.pdf" download="curriculum" className="curriculum">
           <i className="fas fa-file-download"></i>
         </a>
       </div>
